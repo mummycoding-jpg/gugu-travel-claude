@@ -243,3 +243,19 @@ section{position:relative}
 .hero h1 .h1-sub{display:block;margin-top:10px;color:var(--amber);font-size:.62em}
 
 img.brand-mark{display:block;width:46px;height:46px;border-radius:12px;background:none;box-shadow:0 6px 18px rgba(245,130,31,.4)}
+
+/* ---------- Billboard: child photo + mini map ---------- */
+.bb-photo{position:relative}
+.bb-child{position:absolute;left:14px;top:14px;width:78px;height:78px;border-radius:50%;overflow:hidden;border:3px solid #fff;box-shadow:0 0 0 3px var(--orange),0 8px 20px rgba(0,0,0,.45);background:#f6c9b8}
+.bb-child img{width:100%;height:100%;object-fit:cover;border-radius:0;transform:scale(1.15)}
+.bb-map{display:block;width:100%;max-width:340px;height:auto;margin-top:10px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.22);border-radius:10px}
+.bb-map .m-line{stroke:#9fb4ff;stroke-width:2;fill:none;stroke-linecap:round}
+.bb-map .m-out{stroke-dasharray:3 5;opacity:.6}
+.bb-map .m-dot{fill:#fff}
+.bb-map .m-patna{fill:var(--amber)}
+.bb-map .m-pulse{fill:none;stroke:var(--amber);stroke-width:2;transform-origin:120px 52px;animation:mapPulse 1.8s ease-out infinite}
+.bb-map .m-txt{fill:#fff;font:700 11px var(--display),sans-serif}
+.bb-map .m-big{font-size:13px;fill:var(--amber)}
+.bb-map .m-all{fill:#cfd8ff;font:600 10px var(--display),sans-serif}
+@keyframes mapPulse{0%{transform:scale(.8);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+@media (max-width:460px){.bb-child{width:60px;height:60px}}
