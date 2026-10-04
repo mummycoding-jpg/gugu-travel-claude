@@ -239,3 +239,5 @@ section{position:relative}
 .pboard-poles i:last-child{right:16%}
 @media (max-width:760px){.pboard-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:460px){.pboard-grid{grid-template-columns:1fr}.pboard-face{padding:20px 16px 18px}}
+
+.hero h1 .h1-sub{display:block;margin-top:10px;color:var(--amber);font-size:.62em}
