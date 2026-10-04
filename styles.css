@@ -241,3 +241,5 @@ section{position:relative}
 @media (max-width:460px){.pboard-grid{grid-template-columns:1fr}.pboard-face{padding:20px 16px 18px}}
 
 .hero h1 .h1-sub{display:block;margin-top:10px;color:var(--amber);font-size:.62em}
+
+img.brand-mark{display:block;width:46px;height:46px;border-radius:12px;background:none;box-shadow:0 6px 18px rgba(245,130,31,.4)}

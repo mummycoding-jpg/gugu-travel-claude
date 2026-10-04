@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Gugu Taxi logo">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5821f"/><stop offset="1" stop-color="#d9600a"/></linearGradient></defs>
+  <rect width="48" height="48" rx="12" fill="url(#g)"/>
+  <path d="M36.2 11.8A17 17 0 1 0 41 24H31.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14.5 30.5v-3.2c0-.7.2-1.200.6-1.700l1.600-2.200c.4-.5.9-.8 1.600-.8h6.400c.7 0 1.200.3 1.600.8l1.600 2.200c.4.5.6 1 .6 1.700v3.200z" fill="#fff"/>
+  <path d="M18.600 23.800h6.800l1.300 1.900h-9.400z" fill="#d9600a"/>
+  <circle cx="18.500" cy="31" r="2.100" fill="#0b1236" stroke="#fff" stroke-width="1"/>
+  <circle cx="26.500" cy="31" r="2.100" fill="#0b1236" stroke="#fff" stroke-width="1"/>
+  <rect x="19.600" y="17.700" width="4.800" height="2.300" rx=".8" fill="#ffb347"/>
+</svg>
