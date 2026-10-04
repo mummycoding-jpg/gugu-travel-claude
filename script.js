@@ -31,6 +31,15 @@
   document.getElementById("tickerTrack").innerHTML = strip + strip + strip + strip;
   // track holds 4 copies; animating -50% = 2 copies = seamless loop
 
+  /* ---------- Priority green board ---------- */
+  document.getElementById("pboardGrid").innerHTML = S.priorityRoutes.map(function (r, i) {
+    var msg = r.to === "Siwan"
+      ? S.whatsappGreeting + " I need a local cab in Siwan."
+      : S.whatsappGreeting + " Pickup: Siwan. Drop: " + r.to + ".";
+    return '<a class="pcity" target="_blank" rel="noopener" href="' + waLink(msg) + '">' +
+      '<em>' + (i + 1) + '</em><span><b>' + r.to + '</b><small>' + r.state + '</small></span><i aria-hidden="true">&rarr;</i></a>';
+  }).join("");
+
   /* ---------- Highway signs ---------- */
   var signs = document.getElementById("signs");
   signs.innerHTML = S.routes.map(function (r) {

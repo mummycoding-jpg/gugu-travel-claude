@@ -1,9 +1,9 @@
 /* ==========================================================
-   GUGU TOUR & TRAVELS - EDIT YOUR DETAILS HERE
+   GUGU TAXI TOUR & TRAVEL - EDIT YOUR DETAILS HERE
    Change anything below, save, and refresh the page.
    ========================================================== */
 window.SITE = {
-  businessName: "Gugu Tour & Travels",
+  businessName: "Gugu Taxi Tour & Travel",
   base: "Siwan, Bihar",
 
   // Phone number: digits only, with country code (91 = India)
@@ -11,14 +11,25 @@ window.SITE = {
   phoneDisplay: "8210403072",
 
   // First line of every WhatsApp message customers send you
-  whatsappGreeting: "Hello Gugu Tour & Travels, I want to book your Toyota Rumion.",
+  whatsappGreeting: "Hello Gugu Taxi Tour & Travel, I want to book your Toyota Rumion.",
 
-  // Routes shown as highway signs (add or remove freely)
+  // PRIORITY routes: shown first on the big green board (edit freely)
+  priorityRoutes: [
+    { to: "Bettiah",   state: "Bihar" },
+    { to: "Darbhanga", state: "Bihar" },
+    { to: "Madhubani", state: "Bihar" },
+    { to: "Siwan",     state: "Bihar" },
+    { to: "Gopalganj", state: "Bihar" },
+    { to: "Gorakhpur", state: "Uttar Pradesh" },
+    { to: "Raxaul",    state: "Bihar" },
+    { to: "Supaul",    state: "Bihar" },
+    { to: "Gaya",      state: "Bihar" }
+  ],
+
+  // Other routes shown as highway signs (add or remove freely)
   routes: [
     { to: "Patna",      state: "Bihar" },
-    { to: "Gaya",       state: "Bihar" },
     { to: "Muzaffarpur",state: "Bihar" },
-    { to: "Gorakhpur",  state: "Uttar Pradesh" },
     { to: "Varanasi",   state: "Uttar Pradesh" },
     { to: "Lucknow",    state: "Uttar Pradesh" },
     { to: "Prayagraj",  state: "Uttar Pradesh" },

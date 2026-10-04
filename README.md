@@ -1,4 +1,4 @@
-# Gugu Tour & Travels – Cab Booking Website
+# Gugu Taxi Tour & Travel – Cab Booking Website
 
 Static website for a 7-seater AC Toyota Rumion cab service based in Siwan, Bihar.
 Call and WhatsApp booking for Bihar and all-India trips. No backend, no database.
