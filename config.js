@@ -7,8 +7,8 @@ window.SITE = {
   base: "Siwan, Bihar",
 
   // Phone number: digits only, with country code (91 = India)
-  phoneIntl: "918210403072",
-  phoneDisplay: "8210403072",
+  phoneIntl: "919473278535",
+  phoneDisplay: "9473278535",
 
   // First line of every WhatsApp message customers send you
   whatsappGreeting: "Hello Gugu Taxi Tour & Travel, I want to book your Toyota Rumion.",
